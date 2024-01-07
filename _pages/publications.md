@@ -12,7 +12,10 @@ author_profile: true
 1. [Thetacrypt: A Distributed Service for Threshold Cryptography On-Demand: Demo Abstract](https://dl.acm.org/doi/10.1145/3626564.3629100)<br>
 *Orestis Alpos, Mariarosaria Barbaraci, Christian Cachin, Noah Schmid, Michael Senn.*<br>
 In [Middleware Conference 2023](https://dl.acm.org/doi/10.1145/3626564.3629100).
-See the [implementation](https://github.com/cryptobern/thetacrypt) of Thetacrypt.
+Also available is the [implementation](https://github.com/cryptobern/thetacrypt) of Thetacrypt.
+
+1. [Distributed Protocols with Threshold and General Trust Assumptions](/files/papers/phd_thesis.pdf)<br>
+*PhD thesis, Orestis Alpos*. [University of Bern](https://boristheses.unibe.ch/4731/), 2023
 
 1. [Eating sandwiches: Modular and lightweight elimination of transaction reordering attacks](https://arxiv.org/abs/2307.02954)<br>
 *O. Alpos, I. Amores-Sesar, C. Cachin, and M. Yeo.*<br>
