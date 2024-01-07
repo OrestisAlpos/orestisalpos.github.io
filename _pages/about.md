@@ -38,7 +38,7 @@ foundational properties of smart contracts.
 
 Moreover, in Bern I (co-)supervised 3 MSc and 9 BSc [student theses](https://crypto.unibe.ch/theses/)
 on various topics related to cryptography and blockchains,
-and had the pleasure to assist in three courses: Discrete mathematics (BSc, 20219), Cryptography (MSc, 2020), and Privacy and data security (MSc, 2021).
+and had the pleasure to assist in three courses: Discrete mathematics (BSc, 2019), Cryptography (MSc, 2020), and Privacy and data security (MSc, 2021).
 
 Prior to my doctoral studies, I worked for two years as a software engineer
 in the sector of financial technology. Employed by [Entersoft](https://www.entersoft.eu/),
@@ -59,11 +59,6 @@ On a more refreshing side, I sometimes brew tasty beers. Cheers, and feel free t
 <!-- + Consensus beyond thresholds: Generalized byzantine quorums made live, [presentation](/presentations/generalized_quorums-srds.pdf){:.no-push-state} at SRDS 2020
 + Multiparty computation based on secret sharing (mainly SDPZ), [presentation](/presentations/mpc_secret_sharing.pdf){:.no-push-state} for the CRYPTO Lab research seminar -->
 
-
-<!-- 
-# Teaching {#teaching}
-+ _Cryptography_, master course at UniBe, Fall 2020
-+ _Discrete Mathematics_, bachelor course at UniBe, Fall 2019 -->
 
 ---
 > " Ἓν οἶδα ὅτι οὐδὲν οἶδα." \\
