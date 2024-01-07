@@ -30,7 +30,7 @@ with [Jonathan Katz](https://www.cs.umd.edu/~jkatz/).
 We worked on threshold ECDSA protocols and coded in Rust.
 
 I enjoy collaborating with other researchers. During my PhD I collaborated with [Luca Zanolini](https://lucazanolini.com/), now at Ethereum Foundation, on topics including consensus protocols, general and asymmetric trust assumptions, and composition of distributed systems.
-Moreover, with [Duc V. Le](https://levduc.github.io/), staff research scientist at Visa Research, we worked on polynomial commitments and digital signatures.
+Moreover, with [Duc V. Le](https://levduc.github.io/), staff research scientist at VISA Research, we worked on polynomial commitments and digital signatures.
 With Simon Holmgaard Kamp and [Jesper Buus Nielsen](https://pure.au.dk/portal/en/persons/jbn%40cs.au.dk),
 affiliated with the Aarhus University and Concordium, we developed asynchronous consensus protocols for proof-of-stake blockchains.
 With [Giorgia Azzurra Marson](https://www.linkedin.com/in/giorgia-azzurra-marson-87017126/) from NEC Laboratories Europe we explored
