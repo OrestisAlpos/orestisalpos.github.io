@@ -17,8 +17,9 @@ as well as multiple threshold-cryptographic primitives, including digital signat
 My work is primarily systems-oriented and focused on the real world. 
 However, I enjoy understanding theoretical concepts and augmenting the theory whenever necessary.
 
-I obtained my PhD at the [University of Bern](https://crypto.unibe.ch/),
+I obtained my PhD at the [Crypto group](https://crypto.unibe.ch/) of the University of Bern,
 where I had the privilege to be advised by Prof. [Christian Cachin](https://crypto.unibe.ch/cc/).
+My PhD thesis was on [Distributed Protocols with Threshold and General Trust Assumptions](/files/papers/phd_thesis.pdf).
 
 During my PhD I completed two internships. The first was with [IBM Research](https://www.zurich.ibm.com/) in Zurich,
 where I collaborated with [Marko Vukolić](https://vukolic.com/), now at Protocols Labs,
@@ -31,14 +32,18 @@ We worked on threshold ECDSA protocols and coded in Rust.
 
 I enjoy collaborating with other researchers. During my PhD I collaborated with [Luca Zanolini](https://lucazanolini.com/), now at Ethereum Foundation, on topics including consensus protocols, general and asymmetric trust assumptions, and composition of distributed systems.
 Moreover, with [Duc V. Le](https://levduc.github.io/), staff research scientist at VISA Research, we worked on polynomial commitments and digital signatures.
-With Simon Holmgaard Kamp and [Jesper Buus Nielsen](https://pure.au.dk/portal/en/persons/jbn%40cs.au.dk),
-affiliated with the Aarhus University and Concordium, we developed asynchronous consensus protocols for proof-of-stake blockchains.
 With [Giorgia Azzurra Marson](https://www.linkedin.com/in/giorgia-azzurra-marson-87017126/) from NEC Laboratories Europe we explored
 foundational properties of smart contracts.
 
-Moreover, in Bern I (co-)supervised 3 MSc and 9 BSc [student theses](https://crypto.unibe.ch/theses/)
+In September 2022 I visited the [crypto group](https://cs.au.dk/research/cryptography-and-security/) at the Aarhus University.
+With Simon Holmgaard Kamp and [Jesper Buus Nielsen](https://pure.au.dk/portal/en/persons/jbn%40cs.au.dk)
+we developed asynchronous consensus protocols for proof-of-stake blockchains.
+
+While at University of Bern, I (co-)supervised 3 MSc and 9 BSc [student theses](https://crypto.unibe.ch/theses/)
 on various topics related to cryptography and blockchains,
-and had the pleasure to assist in three courses: Discrete mathematics (BSc, 2019), Cryptography (MSc, 2020), and Privacy and data security (MSc, 2021).
+and had the pleasure to assist in three courses: Discrete mathematics (BSc, 2019), Cryptography (MSc, 2020), and Privacy and data security (MSc, 2021). 
+At the same time, I was a sub-reviewer for multiple academic papers at
+ACM SPAA ’23, DISC ’22, AFT ’22, Asiacrypt ’21, Asiacrypt ’20, IEEE-TIFS ’20-22, IEEE-TDSC ’20-22.
 
 Prior to my doctoral studies, I worked for two years as a software engineer
 in the sector of financial technology. Employed by [Entersoft](https://www.entersoft.eu/),
