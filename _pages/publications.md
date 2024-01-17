@@ -15,7 +15,8 @@ In [Middleware Conference 2023](https://dl.acm.org/doi/10.1145/3626564.3629100).
 Also available is the [implementation](https://github.com/cryptobern/thetacrypt) of Thetacrypt.
 
 - [Distributed Protocols with Threshold and General Trust Assumptions](/files/papers/phd_thesis.pdf)<br>
-*PhD thesis, Orestis Alpos*. [University of Bern](https://boristheses.unibe.ch/4731/), 2023
+*PhD thesis, Orestis Alpos*. [University of Bern](https://boristheses.unibe.ch/4731/), 2023<br>
+See related [blogpost](/blog/phd-thesis).
 
 - [Eating sandwiches: Modular and lightweight elimination of transaction reordering attacks](https://arxiv.org/abs/2307.02954)<br>
 *O. Alpos, I. Amores-Sesar, C. Cachin, and M. Yeo.*<br>
@@ -27,7 +28,7 @@ In Advances in Financial Technology, [AFT 2023](https://drops.dagstuhl.de/entiti
 
 - [Do not trust in numbers: Practical distributed cryptography with general trust](https://eprint.iacr.org/2022/1767.pdf)<br>
 *O. Alpos and C. Cachin.*<br>
-In Symposium on Stabilization, Safety and Security of Distributed Systems, [SSS 2023](https://link.springer.com/chapter/10.1007/978-3-031-44274-2_40).
+In Symposium on Stabilization, Safety and Security of Distributed Systems, [SSS 2023](https://link.springer.com/chapter/10.1007/978-3-031-44274-2_40).<br>
 **Best paper award!**
 
 - [DSKE: Digital signature with key extraction](https://eprint.iacr.org/2022/1753.pdf) <br>
@@ -35,17 +36,17 @@ In Symposium on Stabilization, Safety and Security of Distributed Systems, [SSS 
 
 - [How to Trust Strangers: Composition of Byzantine Quorum Systems](https://arxiv.org/abs/2107.11331) <br>
 *O. Alpos, C. Cachin, and L. Zanolini.*<br>
-In IEEE Symposium on Reliable Distributed Systems, [SRDS 2021](https://ieeexplore.ieee.org/document/9603623).
+In IEEE Symposium on Reliable Distributed Systems, [SRDS 2021](https://ieeexplore.ieee.org/document/9603623).<br>
 See related [blogpost](https://cryptobern.github.io/howtotruststrangers/).
 
 - [On the Synchronization Power of Token Smart Contracts](https://arxiv.org/abs/2101.05543) <br>
 *O. Alpos, C. Cachin, G. A. Marson, and L. Zanolini.*<br>
-In IEEE International Conference on Distributed Computing Systems, [ICDCS 2021](https://ieeexplore.ieee.org/document/9546529).
+In IEEE International Conference on Distributed Computing Systems, [ICDCS 2021](https://ieeexplore.ieee.org/document/9546529).<br>
 See related [blogpost](https://cryptobern.github.io/synchronization/) and [presentation](https://www.youtube.com/watch?v=Fzz-vCzXR1M).
 
 - [Consensus Beyond Thresholds: Generalized Byzantine Quorums Made Live](https://arxiv.org/abs/2006.04616) <br>
 *O. Alpos and C. Cachin.*<br>
-In IEEE Symposium on Reliable Distributed Systems, [SRDS 2020](https://ieeexplore.ieee.org/document/9252056).
+In IEEE Symposium on Reliable Distributed Systems, [SRDS 2020](https://ieeexplore.ieee.org/document/9252056).<br>
 See related [blogpost](https://cryptobern.github.io/beyondthreshold/) and [presentation](/files/presentations/generalized_consensus_srds.pdf).
 
 
