@@ -1,5 +1,5 @@
 ---
-title: 'Defended my PhD thesis'
+title: 'My PhD thesis'
 date: 2023-08-23
 permalink: /blog/phd-thesis/
 tags:
