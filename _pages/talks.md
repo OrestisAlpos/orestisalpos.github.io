@@ -29,3 +29,6 @@ author_profile: true
 
 - DSKE: Digital signature with key extraction <br>
 *Cryptography and security group, Aarhus university, research visit, September 2022*
+
+- [Multiparty computation: Definitions, approaches, and a summary of the SPDZ protocol](/files/presentations/mpc_secret_sharing.pdf)<br>
+*University of Bern, crypto research seminar*

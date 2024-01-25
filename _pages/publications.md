@@ -20,7 +20,7 @@ See related [blogpost](/blog/phd-thesis).
 
 - [Eating sandwiches: Modular and lightweight elimination of transaction reordering attacks](https://arxiv.org/abs/2307.02954)<br>
 *O. Alpos, I. Amores-Sesar, C. Cachin, and M. Yeo.*<br>
-In International Conference on Principles of Distributed Systems, OPODIS 2023.
+In International Conference on Principles of Distributed Systems, [OPODIS 2023](https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.OPODIS.2023.12).
 
 - [Practical large-scale proof-of-stake asynchronous total-order broadcast](https://eprint.iacr.org/2023/1103)<br>
 *O. Alpos, C. Cachin, S. H. Kamp, and J. B. Nielsen.*<br>
