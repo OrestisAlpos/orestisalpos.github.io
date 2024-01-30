@@ -10,12 +10,13 @@ redirect_from:
 
 Hi, welcome to my webpage.
 
-I do research in distributed systems and applied cryptography.
-Specifically, I have investigated the security and scalability of distributed systems and blockchains,
+I do research in distributed systems and threshold cryptography.
+I like solving problems and building practical systems.
+<!-- Specifically, I have investigated the security and scalability of distributed systems and blockchains,
 protocols for practical and efficient consensus,
 as well as multiple threshold-cryptographic primitives, including digital signatures and randomness beacons.
 My work is primarily systems-oriented and focused on the real world. 
-However, I enjoy understanding theoretical concepts and augmenting the theory whenever necessary.
+However, I enjoy understanding theoretical concepts and augmenting the theory whenever necessary. -->
 
 I obtained my PhD at the [Crypto group](https://crypto.unibe.ch/) of the University of Bern,
 where I had the privilege to be advised by Prof. [Christian Cachin](https://crypto.unibe.ch/cc/).
