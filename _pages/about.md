@@ -38,7 +38,7 @@ foundational properties of smart contracts.
 
 In September 2022 I visited the [crypto group](https://cs.au.dk/research/cryptography-and-security/) at the Aarhus University.
 With Simon Holmgaard Kamp and [Jesper Buus Nielsen](https://pure.au.dk/portal/en/persons/jbn%40cs.au.dk)
-we developed asynchronous consensus protocols for proof-of-stake blockchains.
+we developed an asynchronous consensus protocol for proof-of-stake blockchains.
 
 While at University of Bern, I (co-)supervised 3 MSc and 9 BSc [student theses](https://crypto.unibe.ch/theses/)
 on various topics related to cryptography and blockchains,
