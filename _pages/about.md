@@ -35,16 +35,18 @@ I enjoy collaborating with other researchers. During my PhD I collaborated with 
 Moreover, with [Duc V. Le](https://levduc.github.io/), staff research scientist at VISA Research, we worked on polynomial commitments and digital signatures.
 With [Giorgia Azzurra Marson](https://www.linkedin.com/in/giorgia-azzurra-marson-87017126/) from NEC Laboratories Europe we explored
 foundational properties of smart contracts.
+At the same time, I (co-)supervised 3 MSc and 9 BSc [student theses](https://crypto.unibe.ch/theses/)
+on topics related to cryptography and blockchains, and (sub-)reviewed multiple academic papers.
 
 In September 2022 I visited the [crypto group](https://cs.au.dk/research/cryptography-and-security/) at the Aarhus University.
 With Simon Holmgaard Kamp and [Jesper Buus Nielsen](https://pure.au.dk/portal/en/persons/jbn%40cs.au.dk)
 we developed an asynchronous consensus protocol for proof-of-stake blockchains.
 
-While at University of Bern, I (co-)supervised 3 MSc and 9 BSc [student theses](https://crypto.unibe.ch/theses/)
+<!-- While at University of Bern, I (co-)supervised 3 MSc and 9 BSc [student theses](https://crypto.unibe.ch/theses/)
 on various topics related to cryptography and blockchains,
 and had the pleasure to assist in three courses: Discrete mathematics (BSc, 2019), Cryptography (MSc, 2020), and Privacy and data security (MSc, 2021). 
 At the same time, I was a sub-reviewer for multiple academic papers at
-ACM SPAA ’23, DISC ’22, AFT ’22, Asiacrypt ’21, Asiacrypt ’20, IEEE-TIFS ’20-22, IEEE-TDSC ’20-22.
+ACM SPAA ’23, DISC ’22, AFT ’22, Asiacrypt ’21, Asiacrypt ’20, IEEE-TIFS ’20-22, IEEE-TDSC ’20-22. -->
 
 Prior to my doctoral studies, I worked for two years as a software engineer
 in the sector of financial technology. Employed by [Entersoft](https://www.entersoft.eu/),
