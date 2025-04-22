@@ -14,7 +14,7 @@ author_profile: true
 
 - [Pod: An Optimal-Latency, Censorship-Free, and Accountable Generalized Consensus Layer](https://arxiv.org/abs/2501.14931)<br>
 *Orestis Alpos, Bernardo David, Dionysis Zindros*<br>
-(under submission)
+(under submission)<br>
 **Deployed on the [pod blockchain](https://pod.network/)!**
 
 - [Thetacrypt: A Distributed Service for Threshold Cryptography](https://arxiv.org/abs/2502.03247)<br>
@@ -29,18 +29,18 @@ In [Distributed Computing](https://link.springer.com/article/10.1007/s00446-024-
 
 ### 2023 - 2020
 
+- [Distributed Protocols with Threshold and General Trust Assumptions](/files/papers/phd_thesis.pdf)<br>
+**PhD thesis, Orestis Alpos**. [University of Bern](https://boristheses.unibe.ch/4731/), 2023<br>
+See related [blogpost](/blog/phd-thesis).
+
 - [Practical large-scale proof-of-stake asynchronous total-order broadcast](https://eprint.iacr.org/2023/1103)<br>
 *O. Alpos, C. Cachin, S. H. Kamp, and J. B. Nielsen.*<br>
 In Advances in Financial Technology, [AFT 2023](https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.AFT.2023.31).
 
 - [Thetacrypt: A Distributed Service for Threshold Cryptography On-Demand: Demo Abstract](https://dl.acm.org/doi/10.1145/3626564.3629100)<br>
 *Orestis Alpos, Mariarosaria Barbaraci, Christian Cachin, Noah Schmid, Michael Senn.*<br>
-In [Middleware Conference 2023](https://dl.acm.org/doi/10.1145/3626564.3629100).
+In [Middleware Conference 2023](https://dl.acm.org/doi/10.1145/3626564.3629100).<br>
 **Open source [implementation](https://github.com/cryptobern/thetacrypt) of Thetacrypt.**
-
-- [Distributed Protocols with Threshold and General Trust Assumptions](/files/papers/phd_thesis.pdf)<br>
-*PhD thesis, Orestis Alpos*. [University of Bern](https://boristheses.unibe.ch/4731/), 2023<br>
-See related [blogpost](/blog/phd-thesis).
 
 - [DSKE: Digital signature with key extraction](https://eprint.iacr.org/2022/1753.pdf) <br>
 *O. Alpos, Z. Wang, A. Kavousi, S. Y. Chau, D. Le, and C. Cachin.*<br>

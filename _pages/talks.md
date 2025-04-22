@@ -15,6 +15,9 @@ author_profile: true
   {% include archive-single-talk.html %}
 {% endfor %} -->
 
+- Blockchain bridges in the wild: definitions, approaches, and taxonomy <br>
+*Ripple UBRI Connect, September 2024*
+
 - Bringing classical distributed protocols into the heterogeneous setting with Asymmetric BQS <br>
 *Heterogeneous trust in distributed systems, workshop in Advances in Financial Technology (AFT), October 2023*
 
