@@ -3,20 +3,23 @@ permalink: /
 title: "About"
 excerpt: "About"
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
 
 Hi, welcome to my webpage.
 
-I do research in distributed systems and threshold cryptography.
-I like solving problems and building practical systems.
-<!-- Specifically, I have investigated the security and scalability of distributed systems and blockchains,
+I am working as a blockchain scientist at [Common Prefix](https://www.commonprefix.com/), where I do research, consulting, and engineering
+on blockchains and distributed protocols.
+
+My research interests are in distributed systems and applied cryptography.
+Specifically, I have investigated the security and scalability of distributed systems and blockchains,
 protocols for practical and efficient consensus,
-as well as multiple threshold-cryptographic primitives, including digital signatures and randomness beacons.
-My work is primarily systems-oriented and focused on the real world. 
-However, I enjoy understanding theoretical concepts and augmenting the theory whenever necessary. -->
+as well as threshold-cryptographic primitives, including digital signatures and randomness beacons.
+Through my research I am bridging practice and theory.
+My work is primarily systems-oriented and focused on the real world.
+However, I enjoy understanding theoretical concepts and augmenting the theory whenever necessary.
 
 I obtained my PhD at the [Crypto group](https://crypto.unibe.ch/) of the University of Bern,
 where I had the privilege to be advised by Prof. [Christian Cachin](https://crypto.unibe.ch/cc/).
@@ -44,7 +47,7 @@ we developed an asynchronous consensus protocol for proof-of-stake blockchains.
 
 <!-- While at University of Bern, I (co-)supervised 3 MSc and 9 BSc [student theses](https://crypto.unibe.ch/theses/)
 on various topics related to cryptography and blockchains,
-and had the pleasure to assist in three courses: Discrete mathematics (BSc, 2019), Cryptography (MSc, 2020), and Privacy and data security (MSc, 2021). 
+and had the pleasure to assist in three courses: Discrete mathematics (BSc, 2019), Cryptography (MSc, 2020), and Privacy and data security (MSc, 2021).
 At the same time, I was a sub-reviewer for multiple academic papers at
 ACM SPAA ’23, DISC ’22, AFT ’22, Asiacrypt ’21, Asiacrypt ’20, IEEE-TIFS ’20-22, IEEE-TDSC ’20-22. -->
 
@@ -62,7 +65,7 @@ In winter I watch the Lord of the Rings, or learn to play the violin.
 On a more refreshing side, I sometimes brew tasty beers. Cheers, and feel free to get in touch with me.
 
 
-<!-- 
+<!--
 <!-- # Talks and presentations {#talks} -->
 <!-- + Consensus beyond thresholds: Generalized byzantine quorums made live, [presentation](/presentations/generalized_quorums-srds.pdf){:.no-push-state} at SRDS 2020
 + Multiparty computation based on secret sharing (mainly SDPZ), [presentation](/presentations/mpc_secret_sharing.pdf){:.no-push-state} for the CRYPTO Lab research seminar -->
