@@ -1,5 +1,6 @@
 ---
 layout: archive
+style: compressed
 title: "Publications"
 permalink: /publications/
 author_profile: true
@@ -9,30 +10,50 @@ author_profile: true
 {% endif %}
 
 
-- [Thetacrypt: A Distributed Service for Threshold Cryptography On-Demand: Demo Abstract](https://dl.acm.org/doi/10.1145/3626564.3629100)<br>
-*Orestis Alpos, Mariarosaria Barbaraci, Christian Cachin, Noah Schmid, Michael Senn.*<br>
-In [Middleware Conference 2023](https://dl.acm.org/doi/10.1145/3626564.3629100).
-Also available is the [implementation](https://github.com/cryptobern/thetacrypt) of Thetacrypt.
+### 2025
 
-- [Distributed Protocols with Threshold and General Trust Assumptions](/files/papers/phd_thesis.pdf)<br>
-*PhD thesis, Orestis Alpos*. [University of Bern](https://boristheses.unibe.ch/4731/), 2023<br>
-See related [blogpost](/blog/phd-thesis).
+- [Pod: An Optimal-Latency, Censorship-Free, and Accountable Generalized Consensus Layer](https://arxiv.org/abs/2501.14931)<br>
+*Orestis Alpos, Bernardo David, Dionysis Zindros*<br>
+(under submission)
+**Deployed on the [pod blockchain](https://pod.network/)!**
 
-- [Eating sandwiches: Modular and lightweight elimination of transaction reordering attacks](https://arxiv.org/abs/2307.02954)<br>
-*O. Alpos, I. Amores-Sesar, C. Cachin, and M. Yeo.*<br>
-In International Conference on Principles of Distributed Systems, [OPODIS 2023](https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.OPODIS.2023.12).
+- [Thetacrypt: A Distributed Service for Threshold Cryptography](https://arxiv.org/abs/2502.03247)<br>
+*Mariarosaria Barbaraci, Noah Schmid, Orestis Alpos, Michael Senn, Christian Cachin.*<br>
+(under submission)
+
+### 2024
+
+- Asymmetric distributed trust<br>
+*Orestis Alpos, Christian Cachin, Björn Tackmann, Luca Zanolini.*<br>
+In [Distributed Computing](https://link.springer.com/article/10.1007/s00446-024-00469-1) Journal, 2024.
+
+### 2023 - 2020
 
 - [Practical large-scale proof-of-stake asynchronous total-order broadcast](https://eprint.iacr.org/2023/1103)<br>
 *O. Alpos, C. Cachin, S. H. Kamp, and J. B. Nielsen.*<br>
 In Advances in Financial Technology, [AFT 2023](https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.AFT.2023.31).
 
+- [Thetacrypt: A Distributed Service for Threshold Cryptography On-Demand: Demo Abstract](https://dl.acm.org/doi/10.1145/3626564.3629100)<br>
+*Orestis Alpos, Mariarosaria Barbaraci, Christian Cachin, Noah Schmid, Michael Senn.*<br>
+In [Middleware Conference 2023](https://dl.acm.org/doi/10.1145/3626564.3629100).
+**Open source [implementation](https://github.com/cryptobern/thetacrypt) of Thetacrypt.**
+
+- [Distributed Protocols with Threshold and General Trust Assumptions](/files/papers/phd_thesis.pdf)<br>
+*PhD thesis, Orestis Alpos*. [University of Bern](https://boristheses.unibe.ch/4731/), 2023<br>
+See related [blogpost](/blog/phd-thesis).
+
+- [DSKE: Digital signature with key extraction](https://eprint.iacr.org/2022/1753.pdf) <br>
+*O. Alpos, Z. Wang, A. Kavousi, S. Y. Chau, D. Le, and C. Cachin.*<br>
+To appear in the proceedings of CT-RSA 2025
+
+- [Eating sandwiches: Modular and lightweight elimination of transaction reordering attacks](https://arxiv.org/abs/2307.02954)<br>
+*O. Alpos, I. Amores-Sesar, C. Cachin, and M. Yeo.*<br>
+In International Conference on Principles of Distributed Systems, [OPODIS 2023](https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.OPODIS.2023.12).
+
 - [Do not trust in numbers: Practical distributed cryptography with general trust](https://eprint.iacr.org/2022/1767.pdf)<br>
 *O. Alpos and C. Cachin.*<br>
 In Symposium on Stabilization, Safety and Security of Distributed Systems, [SSS 2023](https://link.springer.com/chapter/10.1007/978-3-031-44274-2_40).<br>
 **Best paper award!**
-
-- [DSKE: Digital signature with key extraction](https://eprint.iacr.org/2022/1753.pdf) <br>
-*O. Alpos, Z. Wang, A. Kavousi, S. Y. Chau, D. Le, and C. Cachin.*
 
 - [How to Trust Strangers: Composition of Byzantine Quorum Systems](https://arxiv.org/abs/2107.11331) <br>
 *O. Alpos, C. Cachin, and L. Zanolini.*<br>
@@ -51,7 +72,7 @@ See related [blogpost](https://cryptobern.github.io/beyondthreshold/) and [prese
 
 
 <!-- {% include base_path %} -->
-<!-- 
+<!--
 {% for post in site.publications reversed %}
   {% include archive-single.html %}
 {% endfor %} -->
