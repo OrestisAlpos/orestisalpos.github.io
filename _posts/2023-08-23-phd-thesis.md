@@ -3,9 +3,10 @@ title: 'My PhD thesis'
 date: 2023-08-23
 permalink: /blog/phd-thesis/
 tags:
-  # - cool posts
-  # - category1
-  # - category2 
+  - applied cryptography
+  - threshold cryptography
+  - general trust assumptions
+  - consensus
 ---
 My PhD thesis addresses multiple aspects of distributed protocols and cryptographic schemes.
 Distributed systems today power almost all online applications,
