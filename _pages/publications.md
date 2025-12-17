@@ -9,6 +9,16 @@ author_profile: true
   You can also find my articles on my <u><a href="{{author.googlescholar}}"> DBLP page </a></u> or <u><a href="{{author.googlescholar}}"> Google Scholar profile.</a>.</u>
 {% endif %}
 
+I enjoy collaborating with other researchers. During my PhD I collaborated with [Luca Zanolini](https://lucazanolini.com/), now at Ethereum Foundation, on topics including consensus protocols, general and asymmetric trust assumptions, and composition of distributed systems.
+Moreover, with [Duc V. Le](https://levduc.github.io/), staff research scientist at VISA Research, we worked on polynomial commitments and digital signatures.
+With [Giorgia Azzurra Marson](https://www.linkedin.com/in/giorgia-azzurra-marson-87017126/) from NEC Laboratories Europe we explored
+foundational properties of smart contracts.
+At the same time, I (co-)supervised 3 MSc and 9 BSc [student theses](https://crypto.unibe.ch/theses/)
+on topics related to cryptography and blockchains, and (sub-)reviewed multiple academic papers.
+
+In September 2022 I visited the [crypto group](https://cs.au.dk/research/cryptography-and-security/) at the Aarhus University.
+With Simon Holmgaard Kamp and [Jesper Buus Nielsen](https://pure.au.dk/portal/en/persons/jbn%40cs.au.dk)
+we developed an asynchronous consensus protocol for proof-of-stake blockchains.
 
 ### 2025
 
