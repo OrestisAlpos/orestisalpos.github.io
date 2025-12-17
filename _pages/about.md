@@ -18,7 +18,7 @@ and at [IBM Research Zurich](https://www.zurich.ibm.com/), building scalable lar
 I obtained my PhD at the [Crypto group](https://crypto.unibe.ch/) of the University of Bern,
 where I had the privilege to be advised by Prof. [Christian Cachin](https://crypto.unibe.ch/cc/).
 My PhD thesis was on [Distributed Protocols with Threshold and General Trust Assumptions](/files/papers/phd_thesis.pdf).
-My research interests lie in the fields of distributed systems and applied cryptography, and if bridges theory and practice.
+My research interests lie in the fields of distributed systems and applied cryptography, bridging theory and practice.
 
 Before that I worked as a software engineer at [Entersoft](https://www.entersoft.eu/),
 a leading company in the sector of financial technology (aka web2), where
@@ -28,10 +28,9 @@ I obtained my BSc and MSc in computer science from the school of [Electrical and
 at [National Technical University of Athens](//www.ntua.gr/en/).
 My master thesis was on network security with deep learning methods at [Netmode Lab](http://www.netmode.ntua.gr/main/).
 
-Concerning ~~hobbits~~hobbies, I possess a skipper's license and in summer I delight in sailing the Mediterranean.
-In winter, I watch the Lord of the Rings, or learn to play the violin.
+Concerning ~~hobbits~~hobbies, I enjoy dancing and I teach greek folk dances.
+I regularly watch the Lord of the Rings (and the less regularly the first Hobbit film). I am also learning to play the violin.
 On a more refreshing side, I sometimes brew tasty beers. Cheers!
-
 
 <!--
 <!-- # Talks and presentations {#talks} -->

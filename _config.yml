@@ -81,11 +81,11 @@ analytics:
 # Site Author
 author:
   name             : "Orestis Alpos"
-  avatar           : "personal/oa.jpg"
-  bio              : "Researcher in distributed systems and applied cryptography. PhD in computer science."
+  avatar           : "personal/orestis.jpg"
+  bio              : "Building secure and efficient protocols for the next internet."
   location         : "Bern, Switzerland"
   employer         :
-  pubmed           : 
+  pubmed           :
   googlescholar    : "https://scholar.google.com/citations?user=mZ8HyRAAAAAJ"
   email            :
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
