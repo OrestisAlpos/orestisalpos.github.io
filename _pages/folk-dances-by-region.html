@@ -1,0 +1,88 @@
+---
+layout: archive
+title: "Dances by Region"
+permalink: /folk-dances/by-region/
+author_profile: false
+sidebar:
+  nav: "folk-dances"
+---
+
+{% include base_path %}
+
+<div class="folk-dances">
+
+  {% comment %}
+    The map goes here. Once the SVG exists, drop it in with {% include dance-map.svg %}
+    Each region path carries id="<region id from _data/regions.yml>", so a click
+    can link straight to #<region id> further down this page.
+  {% endcomment %}
+  <div class="dance-map dance-map--placeholder">
+    <p>A map of the dance regions will live here.</p>
+  </div>
+
+  {% assign groups = site.data.regions | map: "group" | uniq %}
+  {% for group in groups %}
+
+    <h2 class="dance-group__title">{{ group }}</h2>
+
+    {% assign regions = site.data.regions | where: "group", group %}
+    {% for region in regions %}
+      {% assign dances = site.dances | where: "region", region.id | sort: "name_en" %}
+
+      <section class="dance-region" id="{{ region.id }}">
+        <h3 class="dance-region__title">
+          {{ region.name_en }}
+          <span class="dance-region__el">{{ region.name_el }}</span>
+        </h3>
+
+        {% if dances.size > 0 %}
+          <ul class="dance-list">
+            {% for dance in dances %}
+              <li class="dance-list__item">
+                <a href="{{ base_path }}{{ dance.url }}">{{ dance.name_en | default: dance.name_el }}</a>
+                {% if dance.name_en and dance.name_el %}<span class="dance-list__el">{{ dance.name_el }}</span>{% endif %}
+                {% if dance.village %}<span class="dance-list__village">{{ dance.village }}</span>{% endif %}
+              </li>
+            {% endfor %}
+          </ul>
+        {% else %}
+          <p class="dance-region__empty">Nothing here yet.</p>
+        {% endif %}
+      </section>
+
+    {% endfor %}
+  {% endfor %}
+
+  {% comment %}
+    Safety net: a dance whose `region:` matches no id in _data/regions.yml would
+    otherwise vanish silently from this page. Surface it loudly instead.
+  {% endcomment %}
+  {% assign valid = site.data.regions | map: "id" | join: "," | prepend: "," | append: "," %}
+  {% assign orphans = 0 %}
+  {% for dance in site.dances %}
+    {% capture rid %},{{ dance.region }},{% endcapture %}
+    {% unless valid contains rid %}{% assign orphans = orphans | plus: 1 %}{% endunless %}
+  {% endfor %}
+
+  {% if orphans > 0 %}
+    <section class="dance-region dance-region--orphans">
+      <h3 class="dance-region__title">Unassigned</h3>
+      <p class="dance-region__empty">
+        These have a <code>region:</code> that matches no entry in
+        <code>_data/regions.yml</code> &mdash; likely a typo.
+      </p>
+      <ul class="dance-list">
+        {% for dance in site.dances %}
+          {% capture rid %},{{ dance.region }},{% endcapture %}
+          {% unless valid contains rid %}
+            <li class="dance-list__item">
+              <a href="{{ base_path }}{{ dance.url }}">{{ dance.name_en | default: dance.name_el }}</a>
+              <span class="dance-list__village">region: <code>{{ dance.region }}</code></span>
+            </li>
+          {% endunless %}
+        {% endfor %}
+      </ul>
+    </section>
+  {% endif %}
+
+</div>

@@ -1,0 +1,61 @@
+---
+layout: archive
+title: "Zentroom Diary"
+permalink: /folk-dances/zentroom/
+author_profile: false
+sidebar:
+  nav: "folk-dances"
+---
+
+{% include base_path %}
+
+<div class="folk-dances">
+
+  <p class="zentroom__intro">
+    What we danced, lesson by lesson. Every dance links to its own page.
+  </p>
+
+  {% assign sessions = site.zentroom | sort: "date" | reverse %}
+
+  {% for session in sessions %}
+    <section class="zentroom-entry">
+
+      <h2 class="zentroom-entry__date">
+        {{ session.date | date: "%-d %B %Y" }}
+        {% if session.heading %}<span class="zentroom-entry__title">{{ session.heading }}</span>{% endif %}
+      </h2>
+
+      {% if session.dances and session.dances.size > 0 %}
+        <ul class="dance-list">
+          {% for slug in session.dances %}
+            {% assign dance = site.dances | where: "slug", slug | first %}
+            {% if dance %}
+              {% assign region = site.data.regions | where: "id", dance.region | first %}
+              <li class="dance-list__item">
+                <a href="{{ base_path }}{{ dance.url }}">{{ dance.name_en | default: dance.name_el }}</a>
+                <span class="dance-list__region">
+                  {% if region %}{{ region.name_en }}{% else %}{{ dance.region }}{% endif %}
+                  {% if dance.village %} &middot; {{ dance.village }}{% endif %}
+                </span>
+              </li>
+            {% else %}
+              <li class="dance-list__item dance-list__item--missing">
+                No dance with slug <code>{{ slug }}</code>
+              </li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+      {% endif %}
+
+      {% if session.content and session.content != "" %}
+        <div class="zentroom-entry__notes">{{ session.content | markdownify }}</div>
+      {% endif %}
+
+    </section>
+  {% endfor %}
+
+  {% if sessions.size == 0 %}
+    <p class="dance-region__empty">No lessons recorded yet.</p>
+  {% endif %}
+
+</div>

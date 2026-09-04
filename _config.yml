@@ -187,6 +187,11 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
+  dances:
+    output: true
+    permalink: /folk-dances/dances/:path/
+  zentroom:
+    output: false
 
 
 # Defaults
@@ -227,6 +232,15 @@ defaults:
       author_profile: true
       share: true
       comments: true
+  # _dances
+  - scope:
+      path: ""
+      type: dances
+    values:
+      layout: dance
+      author_profile: false
+      sidebar:
+        nav: "folk-dances"
   # _portfolio
   - scope:
       path: ""

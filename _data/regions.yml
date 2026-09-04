@@ -1,0 +1,100 @@
+# Regions used by the folk-dances section.
+#
+# Each dance in _dances/ carries a `region:` that must match one of the `id`
+# values below. The `id` is also the anchor on the by-region page (#thessaly)
+# and, later, the id of the corresponding path in the SVG map.
+#
+# Order here is the display order on /folk-dances/by-region/.
+
+# ---------------------------------------------------------------- Mainland
+- id: macedonia
+  group: Mainland Greece
+  name_en: Macedonia
+  name_el: Μακεδονία
+
+- id: western-thrace
+  group: Mainland Greece
+  name_en: Western Thrace
+  name_el: Δυτική Θράκη
+
+- id: epirus
+  group: Mainland Greece
+  name_en: Epirus
+  name_el: Ήπειρος
+
+- id: thessaly
+  group: Mainland Greece
+  name_en: Thessaly
+  name_el: Θεσσαλία
+
+- id: sterea
+  group: Mainland Greece
+  name_en: Central Greece
+  name_el: Στερεά Ελλάδα
+
+- id: peloponnese
+  group: Mainland Greece
+  name_en: Peloponnese
+  name_el: Πελοπόννησος
+
+# ----------------------------------------------------------------- Islands
+- id: ionian
+  group: The Islands
+  name_en: Ionian Islands
+  name_el: Επτάνησα
+
+- id: evia-sporades
+  group: The Islands
+  name_en: Evia and the Sporades
+  name_el: Εύβοια και Σποράδες
+
+- id: north-aegean
+  group: The Islands
+  name_en: North Aegean Islands
+  name_el: Νησιά Βορείου Αιγαίου
+
+- id: cyclades
+  group: The Islands
+  name_en: Cyclades
+  name_el: Κυκλάδες
+
+- id: dodecanese
+  group: The Islands
+  name_en: Dodecanese
+  name_el: Δωδεκάνησα
+
+- id: crete
+  group: The Islands
+  name_en: Crete
+  name_el: Κρήτη
+
+# ------------------------------------------------------------ Beyond Greece
+- id: eastern-thrace
+  group: Beyond Modern Greece's Borders
+  name_en: Eastern Thrace
+  name_el: Ανατολική Θράκη
+
+- id: eastern-rumelia
+  group: Beyond Modern Greece's Borders
+  name_en: Eastern Rumelia
+  name_el: Ανατολική Ρωμυλία
+
+- id: pontos
+  group: Beyond Modern Greece's Borders
+  name_en: Pontos
+  name_el: Πόντος
+
+- id: cappadocia
+  group: Beyond Modern Greece's Borders
+  name_en: Cappadocia
+  name_el: Καππαδοκία
+
+- id: asia-minor
+  group: Beyond Modern Greece's Borders
+  name_en: Asia Minor
+  name_el: Μικρά Ασία
+
+- id: cyprus
+  group: Beyond Modern Greece's Borders
+  name_en: Cyprus
+  name_el: Κύπρος

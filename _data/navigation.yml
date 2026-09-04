@@ -17,9 +17,21 @@ main:
         
   - title: "Blog Posts"
     url: /blog/
+
+  - title: "Folk Dances"
+    url: /folk-dances/
     
   # - title: "CV"
   #   url: /cv/
     
   # - title: "Guide"
   #   url: /markdown/
+
+# sidebar nav for the folk-dances section
+folk-dances:
+  - title: "Folk Dances"
+    children:
+      - title: "By Region"
+        url: /folk-dances/by-region/
+      - title: "Zentroom Diary"
+        url: /folk-dances/zentroom/

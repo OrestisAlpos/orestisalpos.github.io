@@ -1,0 +1,66 @@
+---
+layout: default
+---
+
+{% include base_path %}
+
+{% assign region = site.data.regions | where: "id", page.region | first %}
+
+<div id="main" role="main">
+  {% include sidebar.html %}
+
+  <article class="page folk-dances" itemscope itemtype="http://schema.org/CreativeWork">
+    <div class="page__inner-wrap">
+
+      <header>
+        <h1 class="page__title" itemprop="headline">{{ page.name_en | default: page.name_el }}</h1>
+        {% capture othernames %}{% if page.name_el %}{{ page.name_el }}{% endif %}{% if page.name_el and page.name_de %} &middot; {% endif %}{% if page.name_de %}{{ page.name_de }}{% endif %}{% endcapture %}
+        {% if othernames != "" %}
+          <p class="dance__othernames">{{ othernames }}</p>
+        {% endif %}
+      </header>
+
+      <dl class="dance__facts">
+        <dt>Region</dt>
+        <dd>
+          {% if region %}
+            <a href="{{ base_path }}/folk-dances/by-region/#{{ region.id }}">{{ region.name_en }}</a>
+            <span class="dance__facts-el">{{ region.name_el }}</span>
+          {% else %}
+            <span class="dance__facts-unknown">{{ page.region }} &mdash; not in _data/regions.yml</span>
+          {% endif %}
+        </dd>
+
+        {% if page.village %}
+          <dt>Village</dt>
+          <dd>{{ page.village }}</dd>
+        {% endif %}
+
+        {% if page.rhythm %}
+          <dt>Rhythm</dt>
+          <dd>{{ page.rhythm }}</dd>
+        {% endif %}
+      </dl>
+
+      {% if content != "" %}
+        <section class="page__content dance__notes" itemprop="text">
+          {{ content }}
+        </section>
+      {% endif %}
+
+      {% if page.videos and page.videos.size > 0 %}
+        <section class="dance__videos">
+          <h2 class="dance__videos-title">Video</h2>
+          {% for video in page.videos %}
+            {% include dance-video.html url=video %}
+          {% endfor %}
+        </section>
+      {% endif %}
+
+      <p class="dance__back">
+        <a href="{{ base_path }}/folk-dances/by-region/">&larr; All dances by region</a>
+      </p>
+
+    </div>
+  </article>
+</div>

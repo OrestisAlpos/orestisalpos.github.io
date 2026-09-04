@@ -1,0 +1,238 @@
+/* ==========================================================================
+   FOLK DANCES
+   ==========================================================================
+   Everything for the /folk-dances/ section lives here, namespaced under
+   .folk-dances. For now it borrows the theme's variables so the section looks
+   like the rest of the site; to restyle the section later, this is the only
+   file that needs to change.
+   ========================================================================== */
+
+.folk-dances {
+
+  /* --- landing page cards ------------------------------------------------ */
+
+  .dance-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    margin: 2em 0;
+  }
+
+  .dance-card {
+    flex: 1 1 260px;
+    padding: 1.25em 1.5em;
+    border: 1px solid $border-color;
+    border-radius: $border-radius;
+    text-decoration: none;
+    color: $text-color;
+
+    &:hover {
+      border-color: $link-color;
+    }
+  }
+
+  .dance-card__title {
+    margin: 0 0 0.4em;
+    font-size: $type-size-4;
+    color: $link-color;
+  }
+
+  .dance-card__text {
+    margin: 0;
+    font-size: $type-size-6;
+  }
+
+  /* --- the map ----------------------------------------------------------- */
+
+  .dance-map {
+    margin: 0 0 2.5em;
+
+    svg {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  .dance-map--placeholder {
+    padding: 3em 1em;
+    text-align: center;
+    border: 1px dashed $border-color;
+    border-radius: $border-radius;
+    color: $light-gray;
+    font-size: $type-size-6;
+
+    p { margin: 0; }
+  }
+
+  /* --- region lists ------------------------------------------------------ */
+
+  .dance-group__title {
+    margin: 2em 0 0.5em;
+    padding-bottom: 0.25em;
+    border-bottom: 1px solid $border-color;
+    font-size: $type-size-5;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: $gray;
+  }
+
+  .dance-region {
+    margin: 1.5em 0;
+
+    /* so an anchor jump from the map doesn't hide the heading under the masthead */
+    scroll-margin-top: 5em;
+  }
+
+  .dance-region__title {
+    margin: 0 0 0.4em;
+    font-size: $type-size-4;
+  }
+
+  .dance-region__el {
+    margin-left: 0.5em;
+    font-size: $type-size-6;
+    font-weight: normal;
+    color: $gray;
+  }
+
+  .dance-region__empty {
+    margin: 0;
+    font-size: $type-size-6;
+    font-style: italic;
+    color: $light-gray;
+  }
+
+  .dance-region--orphans {
+    padding: 1em 1.25em;
+    border: 1px solid $warning-color;
+    border-radius: $border-radius;
+  }
+
+  .dance-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .dance-list__item {
+    margin: 0 0 0.3em;
+    font-size: $type-size-6;
+  }
+
+  /* the Greek name beside the English one, echoing .dance-region__el */
+  .dance-list__el {
+    margin-left: 0.5em;
+    font-weight: normal;
+    color: $gray;
+  }
+
+  .dance-list__village,
+  .dance-list__region {
+    margin-left: 0.6em;
+    font-size: $type-size-7;
+    color: $gray;
+  }
+
+  .dance-list__item--missing {
+    color: $danger-color;
+  }
+
+  /* --- a single dance ---------------------------------------------------- */
+
+  .dance__othernames {
+    margin: -0.5em 0 1.5em;
+    font-size: $type-size-5;
+    color: $gray;
+  }
+
+  .dance__facts {
+    margin: 0 0 2em;
+    padding: 0;
+    font-size: $type-size-6;
+
+    dt {
+      margin: 0;
+      font-weight: bold;
+      text-transform: uppercase;
+      font-size: $type-size-7;
+      letter-spacing: 1px;
+      color: $gray;
+    }
+
+    dd {
+      margin: 0 0 0.75em;
+
+      &:last-child { margin-bottom: 0; }
+    }
+  }
+
+  .dance__facts-el {
+    margin-left: 0.4em;
+    color: $gray;
+  }
+
+  .dance__facts-unknown {
+    color: $danger-color;
+  }
+
+  .dance__videos-title {
+    font-size: $type-size-5;
+  }
+
+  /* keeps the YouTube embed 16:9 at any width */
+  .dance__video {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    margin-bottom: 1em;
+
+    iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
+  }
+
+  .dance__back {
+    margin-top: 2.5em;
+    font-size: $type-size-6;
+  }
+
+  /* --- zentroom diary ---------------------------------------------------- */
+
+  .zentroom__intro {
+    font-size: $type-size-6;
+    color: $gray;
+  }
+
+  .zentroom-entry {
+    margin: 0 0 2em;
+    padding-bottom: 1.5em;
+    border-bottom: 1px solid $border-color;
+
+    &:last-child { border-bottom: 0; }
+  }
+
+  .zentroom-entry__date {
+    margin: 0 0 0.5em;
+    font-size: $type-size-5;
+  }
+
+  .zentroom-entry__title {
+    margin-left: 0.6em;
+    font-size: $type-size-6;
+    font-weight: normal;
+    color: $gray;
+  }
+
+  .zentroom-entry__notes {
+    margin-top: 0.75em;
+    font-size: $type-size-6;
+
+    p:last-child { margin-bottom: 0; }
+  }
+}

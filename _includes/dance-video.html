@@ -1,0 +1,24 @@
+{% comment %}
+  Embeds a YouTube video. Accepts both watch?v=... and youtu.be/... forms.
+  Anything else falls back to a plain link.
+{% endcomment %}
+{% assign video_url = include.url %}
+{% assign youtube_id = "" %}
+
+{% if video_url contains "youtu.be/" %}
+  {% assign youtube_id = video_url | split: "youtu.be/" | last | split: "?" | first | split: "&" | first %}
+{% elsif video_url contains "v=" %}
+  {% assign youtube_id = video_url | split: "v=" | last | split: "&" | first %}
+{% endif %}
+
+{% if youtube_id != "" %}
+  <div class="dance__video">
+    <iframe src="https://www.youtube-nocookie.com/embed/{{ youtube_id }}"
+            title="Video"
+            frameborder="0"
+            allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+  </div>
+{% else %}
+  <p class="dance__video-link"><a href="{{ video_url }}">{{ video_url }}</a></p>
+{% endif %}
