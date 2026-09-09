@@ -190,7 +190,7 @@ collections:
   dances:
     output: true
     permalink: /folk-dances/dances/:path/
-  zentroom:
+  dances-zentroom:
     output: false
 
 

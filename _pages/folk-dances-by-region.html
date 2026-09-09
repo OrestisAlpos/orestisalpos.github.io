@@ -41,7 +41,7 @@ sidebar:
               <li class="dance-list__item">
                 <a href="{{ base_path }}{{ dance.url }}">{{ dance.name_en | default: dance.name_el }}</a>
                 {% if dance.name_en and dance.name_el %}<span class="dance-list__el">{{ dance.name_el }}</span>{% endif %}
-                {% if dance.village %}<span class="dance-list__village">{{ dance.village }}</span>{% endif %}
+                {% if dance.sub_region %}<span class="dance-list__sub-region">{{ dance.sub_region }}</span>{% endif %}
               </li>
             {% endfor %}
           </ul>
@@ -77,7 +77,7 @@ sidebar:
           {% unless valid contains rid %}
             <li class="dance-list__item">
               <a href="{{ base_path }}{{ dance.url }}">{{ dance.name_en | default: dance.name_el }}</a>
-              <span class="dance-list__village">region: <code>{{ dance.region }}</code></span>
+              <span class="dance-list__sub-region">region: <code>{{ dance.region }}</code></span>
             </li>
           {% endunless %}
         {% endfor %}

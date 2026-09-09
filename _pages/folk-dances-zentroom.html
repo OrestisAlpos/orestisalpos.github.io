@@ -15,7 +15,7 @@ sidebar:
     What we danced, lesson by lesson. Every dance links to its own page.
   </p>
 
-  {% assign sessions = site.zentroom | sort: "date" | reverse %}
+  {% assign sessions = site["dances-zentroom"] | sort: "date" | reverse %}
 
   {% for session in sessions %}
     <section class="zentroom-entry">
@@ -35,7 +35,7 @@ sidebar:
                 <a href="{{ base_path }}{{ dance.url }}">{{ dance.name_en | default: dance.name_el }}</a>
                 <span class="dance-list__region">
                   {% if region %}{{ region.name_en }}{% else %}{{ dance.region }}{% endif %}
-                  {% if dance.village %} &middot; {{ dance.village }}{% endif %}
+                  {% if dance.sub_region %} &middot; {{ dance.sub_region }}{% endif %}
                 </span>
               </li>
             {% else %}

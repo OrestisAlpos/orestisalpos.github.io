@@ -4,7 +4,7 @@ name_el: Τρεμουλιαστός
 name_en: Tremouliastos
 name_de:
 region: eastern-rumelia
-village: Black Sea
+sub_region: Black Sea
 rhythm:
 videos:
 ---

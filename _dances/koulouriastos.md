@@ -4,7 +4,7 @@ name_el: Κουλουριαστός
 name_en: Koulouriastos
 name_de:
 region: western-thrace
-village: Marides
+sub_region: Marides
 rhythm:
 videos:
 ---

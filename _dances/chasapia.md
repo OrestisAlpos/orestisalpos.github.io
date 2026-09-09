@@ -4,7 +4,7 @@ name_el: Χασαπιά
 name_en: Chasapia
 name_de:
 region: western-thrace
-village:
+sub_region:
 rhythm:
 videos:
 ---

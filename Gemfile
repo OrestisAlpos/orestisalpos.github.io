@@ -27,3 +27,10 @@ group :jekyll_plugins do
 end
 
 gem "webrick", "~> 1.8"
+
+# Stdlib gems unbundled from Ruby 3.4+/4.x that Jekyll 3.9 (github-pages) still requires
+gem "csv"
+gem "base64"
+gem "bigdecimal"
+gem "logger"
+gem "ostruct"

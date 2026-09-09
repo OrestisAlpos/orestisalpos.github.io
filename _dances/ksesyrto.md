@@ -4,7 +4,7 @@ name_el: Ξέσυρτο
 name_en: Ksesyrto
 name_de:
 region: western-thrace
-village:
+sub_region:
 rhythm:
 videos:
 ---
