@@ -51,18 +51,75 @@
       display: block;
       width: 100%;
       height: auto;
+      overflow: hidden;
     }
   }
 
-  .dance-map--placeholder {
-    padding: 3em 1em;
-    text-align: center;
-    border: 1px dashed $border-color;
-    border-radius: $border-radius;
-    color: $light-gray;
-    font-size: $type-size-6;
+  /* land outside the regions we dance from, for context only */
+  .dance-map__land {
+    fill: #f0efec;
+  }
 
-    p { margin: 0; }
+  /* drawn under the fill, so it only shows where a region meets its neighbour */
+  .dance-map__edge {
+    fill: none;
+    stroke: $background-color;
+    stroke-width: 1.6;
+    stroke-linejoin: round;
+  }
+
+  /* the regions we have dances from - a link, so it reads as one */
+  .dance-map__fill {
+    fill: #cde2fb;
+    stroke: none;
+    transition: fill 0.12s ease;
+  }
+
+  .dance-map__region {
+    cursor: pointer;
+
+    &:hover .dance-map__fill,
+    &:focus .dance-map__fill {
+      fill: #86b6ef;
+    }
+
+    &:hover .dance-map__edge,
+    &:focus .dance-map__edge,
+    &:focus-visible .dance-map__edge {
+      stroke: $dark-gray;
+      stroke-width: 2.2;
+    }
+
+    &:focus { outline: none; }
+  }
+
+  .dance-map__label {
+    font-family: $sans-serif;
+    font-size: 12px;
+    text-anchor: middle;
+    fill: #52514e;
+    pointer-events: none;
+    /* halo, so a label stays legible over a coastline or a hovered fill */
+    stroke: $background-color;
+    stroke-width: 2.5px;
+    stroke-linejoin: round;
+    paint-order: stroke;
+  }
+
+  /* the whole map is barely a thumbnail on a phone: grow what is left and drop
+     the island-group labels, which are the ones that collide once enlarged */
+  @include breakpoint(max-width $small) {
+    .dance-map__label {
+      font-size: 20px;
+
+      &--sea { display: none; }
+    }
+  }
+
+  .dance-map__caption {
+    margin: 0.75em 0 0;
+    font-size: $type-size-7;
+    color: $gray;
   }
 
   /* --- region lists ------------------------------------------------------ */

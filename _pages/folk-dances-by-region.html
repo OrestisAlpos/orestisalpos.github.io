@@ -11,13 +11,11 @@ sidebar:
 
 <div class="folk-dances">
 
-  {% comment %}
-    The map goes here. Once the SVG exists, drop it in with {% include dance-map.svg %}
-    Each region path carries id="<region id from _data/regions.yml>", so a click
-    can link straight to #<region id> further down this page.
-  {% endcomment %}
-  <div class="dance-map dance-map--placeholder">
-    <p>A map of the dance regions will live here.</p>
+  <div class="dance-map">
+    {% include dance-map.svg %}
+    <p class="dance-map__caption">
+      Click a region to jump to its dances.
+    </p>
   </div>
 
   {% assign groups = site.data.regions | map: "group" | uniq %}
