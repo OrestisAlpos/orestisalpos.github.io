@@ -58,7 +58,7 @@ Preprint.
 *Orestis Alpos, Christian Cachin, Björn Tackmann, Luca Zanolini.*<br>
 In [Distributed Computing](https://link.springer.com/article/10.1007/s00446-024-00469-1), volume 37, 2024.
 
-### 2023
+### 2023 - 2020
 
 - [Distributed Protocols with Threshold and General Trust Assumptions](/files/papers/phd_thesis.pdf)<br>
 **PhD thesis, Orestis Alpos.** [University of Bern](https://boristheses.unibe.ch/4731/), 2023.<br>
@@ -81,8 +81,6 @@ In Symposium on Stabilization, Safety, and Security of Distributed Systems, [SSS
 *Orestis Alpos, Mariarosaria Barbaraci, Christian Cachin, Noah Schmid, Michael Senn.*<br>
 In [Middleware 2023](https://doi.org/10.1145/3626564.3629100) Demos and Posters.
 
-### 2021
-
 - [How to Trust Strangers: Composition of Byzantine Quorum Systems](https://arxiv.org/abs/2107.11331)<br>
 *Orestis Alpos, Christian Cachin, Luca Zanolini.*<br>
 In IEEE International Symposium on Reliable Distributed Systems, [SRDS 2021](https://doi.org/10.1109/SRDS53918.2021.00021).
@@ -93,8 +91,6 @@ See the related [blog post](https://cryptobern.github.io/howtotruststrangers/).
 *Orestis Alpos, Christian Cachin, Giorgia Azzurra Marson, Luca Zanolini.*<br>
 In IEEE International Conference on Distributed Computing Systems, [ICDCS 2021](https://doi.org/10.1109/ICDCS51616.2021.00067).<br>
 See the related [blog post](https://cryptobern.github.io/synchronization/) and [presentation](https://www.youtube.com/watch?v=Fzz-vCzXR1M).
-
-### 2020
 
 - [Consensus Beyond Thresholds: Generalized Byzantine Quorums Made Live](https://arxiv.org/abs/2006.04616)<br>
 *Orestis Alpos, Christian Cachin.*<br>
