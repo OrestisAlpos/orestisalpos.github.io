@@ -1,7 +1,9 @@
 ---
 title: 'Demystifying pod-core'
-date: 2023-08-23
-permalink: /blog/phd-pod-core/
+date: 2025-02-17
+permalink: /blog/demystifying-pod-core/
+redirect_from:
+  - /blog/phd-pod-core/
 tags:
   - consensus
   - efficiency

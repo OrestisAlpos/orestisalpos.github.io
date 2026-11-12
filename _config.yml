@@ -19,7 +19,7 @@ breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
 future                   : true
 read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
-talkmap_link             : false #change to true to add link to talkmap on talks page
+
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
   disqus:
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Orestis Alpos"
   avatar           : "personal/orestis.jpg"
-  bio              : "Building secure and efficient protocols for the next internet."
+  bio              : "Technical consultant at Common Prefix. Building secure and efficient protocols for the next internet."
   location         : "Bern, Switzerland"
   employer         :
   pubmed           :
@@ -175,18 +175,6 @@ kramdown:
 
 # Collections
 collections:
-  teaching:
-    output: true
-    permalink: /:collection/:path/
-  publications:
-    output: true
-    permalink: /:collection/:path/
-  portfolio:
-    output: true
-    permalink: /:collection/:path/
-  talks:
-    output: true
-    permalink: /:collection/:path/
   dances:
     output: true
     permalink: /folk-dances/dances/:path/
@@ -214,24 +202,6 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _teaching
-  - scope:
-      path: ""
-      type: teaching
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
-  # _publications
-  - scope:
-      path: ""
-      type: publications
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
   # _dances
   - scope:
       path: ""
@@ -241,23 +211,6 @@ defaults:
       author_profile: false
       sidebar:
         nav: "folk-dances"
-  # _portfolio
-  - scope:
-      path: ""
-      type: portfolio
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comment: true
-  # _talks
-  - scope:
-      path: ""
-      type: talks
-    values:
-      layout: talk
-      author_profile: true
-      share: true
 
 # Sass/SCSS
 sass:

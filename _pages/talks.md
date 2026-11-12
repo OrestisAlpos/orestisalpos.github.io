@@ -5,16 +5,6 @@ permalink: /talks/
 author_profile: true
 ---
 
-<!-- {% if site.talkmap_link == true %}
-
-<p style="text-decoration:underline;"><a href="/talkmap.html">See a map of all the places I've given a talk!</a></p>
-
-{% endif %}
-
-{% for post in site.talks reversed %}
-  {% include archive-single-talk.html %}
-{% endfor %} -->
-
 - Censorship-resistant sealed-bid auctions on blockchains ([video](https://www.youtube.com/watch?v=ZorgH2LIS1s)) <br>
 *[Yale Applied Cryptography Laboratory Seminar](https://sites.google.com/view/yacl/seminar), February 2026*
 

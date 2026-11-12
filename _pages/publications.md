@@ -28,6 +28,7 @@ Preprint.
 - [pod: An Optimal-Latency, Censorship-Free, and Accountable Generalized Consensus Layer](https://eprint.iacr.org/2025/1682)<br>
 *Orestis Alpos, Bernardo David, Jakov Mitrovski, Odysseas Sofikitis, Dionysis Zindros.*<br>
 In International Symposium on Distributed Computing, [DISC 2025](https://doi.org/10.4230/LIPIcs.DISC.2025.4).<br>
+**Best student paper award.**<br>
 **Deployed on the [pod network](https://pod.network/).**
 
 - [DSKE: Digital Signatures with Key Extraction](https://eprint.iacr.org/2022/1753)<br>
@@ -99,10 +100,3 @@ See the related [blog post](https://cryptobern.github.io/synchronization/) and [
 *Orestis Alpos, Christian Cachin.*<br>
 In IEEE International Symposium on Reliable Distributed Systems, [SRDS 2020](https://doi.org/10.1109/SRDS51746.2020.00010).<br>
 See the related [blog post](https://cryptobern.github.io/beyondthreshold/) and [presentation](/files/presentations/generalized_consensus_srds.pdf).
-
-
-<!-- {% include base_path %} -->
-<!--
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
-{% endfor %} -->
