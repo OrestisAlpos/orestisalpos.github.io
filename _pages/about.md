@@ -37,13 +37,3 @@ On a more refreshing side, I sometimes brew tasty beers. Cheers!
 <!-- + Consensus beyond thresholds: Generalized byzantine quorums made live, [presentation](/presentations/generalized_quorums-srds.pdf){:.no-push-state} at SRDS 2020
 + Multiparty computation based on secret sharing (mainly SDPZ), [presentation](/presentations/mpc_secret_sharing.pdf){:.no-push-state} for the CRYPTO Lab research seminar -->
 
-
----
-> " Ἓν οἶδα ὅτι οὐδὲν οἶδα." \\
-_Σωκράτης_ \\
-> "I know one thing, that I know nothing."\\
-_Socrates_
-{: style="text-align: center;"}
-<!-- {: style="color:gray; font-size: 80%; text-align: center;"} -->
-
-
