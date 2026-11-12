@@ -5,80 +5,100 @@ title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
-{% if author.googlescholar %}
-  You can also find my articles on my <u><a href="{{author.googlescholar}}"> DBLP page </a></u> or <u><a href="{{author.googlescholar}}"> Google Scholar profile.</a>.</u>
-{% endif %}
 
-I enjoy collaborating with other researchers. During my PhD I collaborated with [Luca Zanolini](https://lucazanolini.com/), now at Ethereum Foundation, on topics including consensus protocols, general and asymmetric trust assumptions, and composition of distributed systems.
-Moreover, with [Duc V. Le](https://levduc.github.io/), staff research scientist at VISA Research, we worked on polynomial commitments and digital signatures.
-With [Giorgia Azzurra Marson](https://www.linkedin.com/in/giorgia-azzurra-marson-87017126/) from NEC Laboratories Europe we explored
-foundational properties of smart contracts.
-At the same time, I (co-)supervised 3 MSc and 9 BSc [student theses](https://crypto.unibe.ch/theses/)
-on topics related to cryptography and blockchains, and (sub-)reviewed multiple academic papers.
+My research lies at the intersection of distributed systems and applied cryptography,
+with a focus on consensus protocols, threshold cryptography, and blockchain security.
+I am always happy to collaborate with researchers and practitioners; if you are interested in working together, feel free to reach out.
 
-In September 2022 I visited the [crypto group](https://cs.au.dk/research/cryptography-and-security/) at the Aarhus University.
-With Simon Holmgaard Kamp and [Jesper Buus Nielsen](https://pure.au.dk/portal/en/persons/jbn%40cs.au.dk)
-we developed an asynchronous consensus protocol for proof-of-stake blockchains.
+The full list of my publications is also available on [DBLP](https://dblp.org/pid/267/1919.html){% if site.author.googlescholar %} and [Google Scholar]({{ site.author.googlescholar }}){% endif %}.
+
+### 2026
+
+- [Censorship-Resistant Sealed-Bid Auctions on Blockchains](https://eprint.iacr.org/2025/2127)<br>
+*Orestis Alpos, Lioba Heimbach, Kartik Nayak, Sarisht Wadhwa.*<br>
+Preprint. Also on [arXiv](https://arxiv.org/abs/2606.14939).<br>
+See the [presentation](https://www.youtube.com/watch?v=ZorgH2LIS1s) and the [implementation](https://github.com/OrestisAlpos/proofs-censorship-resistant-auctions) of the ZK proofs.
+
+- [Monotone Erasure Codes](https://arxiv.org/abs/2605.22426)<br>
+*Vivien Bammert, Annalisa Cimatti, Orestis Alpos, Giuliano Losa, Christian Cachin.*<br>
+Preprint.
 
 ### 2025
 
-- [Pod: An Optimal-Latency, Censorship-Free, and Accountable Generalized Consensus Layer](https://arxiv.org/abs/2501.14931)<br>
-*Orestis Alpos, Bernardo David, Dionysis Zindros*<br>
-(under submission)<br>
-**Deployed on the [pod blockchain](https://pod.network/)!**
+- [pod: An Optimal-Latency, Censorship-Free, and Accountable Generalized Consensus Layer](https://eprint.iacr.org/2025/1682)<br>
+*Orestis Alpos, Bernardo David, Jakov Mitrovski, Odysseas Sofikitis, Dionysis Zindros.*<br>
+In International Symposium on Distributed Computing, [DISC 2025](https://doi.org/10.4230/LIPIcs.DISC.2025.4).<br>
+**Deployed on the [pod network](https://pod.network/).**
+
+- [DSKE: Digital Signatures with Key Extraction](https://eprint.iacr.org/2022/1753)<br>
+*Zhipeng Wang, Orestis Alpos, Alireza Kavousi, Harry W. H. Wong, Sze Yiu Chau, Duc Viet Le, Christian Cachin.*<br>
+In Cryptographers' Track at the RSA Conference, [CT-RSA 2025](https://doi.org/10.1007/978-3-031-88661-4_7).
 
 - [Thetacrypt: A Distributed Service for Threshold Cryptography](https://arxiv.org/abs/2502.03247)<br>
-*Mariarosaria Barbaraci, Noah Schmid, Orestis Alpos, Michael Senn, Christian Cachin.*<br>
-(under submission)
+*Mariarosaria Barbaraci, Michael Senn, Noah Schmid, Orestis Alpos, Christian Cachin.*<br>
+In Latin-American Symposium on Dependable and Secure Computing, [LADC 2025](https://doi.org/10.1007/978-3-032-11539-3_10).<br>
+**Open-source [implementation](https://github.com/cryptobern/thetacrypt).**
+
+- [Bitcoin-IPC: Scaling Bitcoin with a Network of Proof-of-Stake Subnets](https://arxiv.org/abs/2512.23439)<br>
+*Marko Vukolić, Orestis Alpos, Jakov Mitrovski, Themis Papameletiou, Nikola Ristić, Dionysis Zindros.*<br>
+Preprint.
+
+- [Formalization and Security Analysis of the Bridgeless Protocol](https://arxiv.org/abs/2506.19730)<br>
+*Orestis Alpos, Oleg Fomenko, Dimitris Karakostas, Oleksandr Kurbatov, Andrey Sabelnikov.*<br>
+Preprint.
+
+- [An Overview of the Efficiency and Censorship-Resistance Guarantees of Widely-Used Consensus Protocols](https://arxiv.org/abs/2504.03588)<br>
+*Orestis Alpos, Bernardo David, Nikolas Kamarinakis, Dionysis Zindros.*<br>
+Preprint.
 
 ### 2024
 
-- Asymmetric distributed trust<br>
+- [Asymmetric Distributed Trust](https://doi.org/10.1007/s00446-024-00469-1)<br>
 *Orestis Alpos, Christian Cachin, Björn Tackmann, Luca Zanolini.*<br>
-In [Distributed Computing](https://link.springer.com/article/10.1007/s00446-024-00469-1) Journal, 2024.
+In [Distributed Computing](https://link.springer.com/article/10.1007/s00446-024-00469-1), volume 37, 2024.
 
-### 2023 - 2020
+### 2023
 
 - [Distributed Protocols with Threshold and General Trust Assumptions](/files/papers/phd_thesis.pdf)<br>
-**PhD thesis, Orestis Alpos**. [University of Bern](https://boristheses.unibe.ch/4731/), 2023<br>
-See related [blogpost](/blog/phd-thesis).
+**PhD thesis, Orestis Alpos.** [University of Bern](https://boristheses.unibe.ch/4731/), 2023.<br>
+See the related [blog post](/blog/phd-thesis).
 
-- [Practical large-scale proof-of-stake asynchronous total-order broadcast](https://eprint.iacr.org/2023/1103)<br>
-*O. Alpos, C. Cachin, S. H. Kamp, and J. B. Nielsen.*<br>
-In Advances in Financial Technology, [AFT 2023](https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.AFT.2023.31).
+- [Practical Large-Scale Proof-of-Stake Asynchronous Total-Order Broadcast](https://eprint.iacr.org/2023/1103)<br>
+*Orestis Alpos, Christian Cachin, Simon Holmgaard Kamp, Jesper Buus Nielsen.*<br>
+In Advances in Financial Technologies, [AFT 2023](https://doi.org/10.4230/LIPIcs.AFT.2023.31).
 
-- [Thetacrypt: A Distributed Service for Threshold Cryptography On-Demand: Demo Abstract](https://dl.acm.org/doi/10.1145/3626564.3629100)<br>
+- [Eating Sandwiches: Modular and Lightweight Elimination of Transaction Reordering Attacks](https://arxiv.org/abs/2307.02954)<br>
+*Orestis Alpos, Ignacio Amores-Sesar, Christian Cachin, Michelle Yeo.*<br>
+In International Conference on Principles of Distributed Systems, [OPODIS 2023](https://doi.org/10.4230/LIPIcs.OPODIS.2023.12).
+
+- [Do Not Trust in Numbers: Practical Distributed Cryptography with General Trust](https://eprint.iacr.org/2022/1767)<br>
+*Orestis Alpos, Christian Cachin.*<br>
+In Symposium on Stabilization, Safety, and Security of Distributed Systems, [SSS 2023](https://doi.org/10.1007/978-3-031-44274-2_40).<br>
+**Best student paper award.**
+
+- [Thetacrypt: A Distributed Service for Threshold Cryptography On-Demand (Demo Abstract)](https://doi.org/10.1145/3626564.3629100)<br>
 *Orestis Alpos, Mariarosaria Barbaraci, Christian Cachin, Noah Schmid, Michael Senn.*<br>
-In [Middleware Conference 2023](https://dl.acm.org/doi/10.1145/3626564.3629100).<br>
-**Open source [implementation](https://github.com/cryptobern/thetacrypt) of Thetacrypt.**
+In [Middleware 2023](https://doi.org/10.1145/3626564.3629100) Demos and Posters.
 
-- [DSKE: Digital signature with key extraction](https://eprint.iacr.org/2022/1753.pdf) <br>
-*O. Alpos, Z. Wang, A. Kavousi, S. Y. Chau, D. Le, and C. Cachin.*<br>
-To appear in the proceedings of CT-RSA 2025
+### 2021
 
-- [Eating sandwiches: Modular and lightweight elimination of transaction reordering attacks](https://arxiv.org/abs/2307.02954)<br>
-*O. Alpos, I. Amores-Sesar, C. Cachin, and M. Yeo.*<br>
-In International Conference on Principles of Distributed Systems, [OPODIS 2023](https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.OPODIS.2023.12).
+- [How to Trust Strangers: Composition of Byzantine Quorum Systems](https://arxiv.org/abs/2107.11331)<br>
+*Orestis Alpos, Christian Cachin, Luca Zanolini.*<br>
+In IEEE International Symposium on Reliable Distributed Systems, [SRDS 2021](https://doi.org/10.1109/SRDS53918.2021.00021).
+Brief announcement at [DISC 2021](https://doi.org/10.4230/LIPIcs.DISC.2021.44).<br>
+See the related [blog post](https://cryptobern.github.io/howtotruststrangers/).
 
-- [Do not trust in numbers: Practical distributed cryptography with general trust](https://eprint.iacr.org/2022/1767.pdf)<br>
-*O. Alpos and C. Cachin.*<br>
-In Symposium on Stabilization, Safety and Security of Distributed Systems, [SSS 2023](https://link.springer.com/chapter/10.1007/978-3-031-44274-2_40).<br>
-**Best paper award!**
+- [On the Synchronization Power of Token Smart Contracts](https://arxiv.org/abs/2101.05543)<br>
+*Orestis Alpos, Christian Cachin, Giorgia Azzurra Marson, Luca Zanolini.*<br>
+In IEEE International Conference on Distributed Computing Systems, [ICDCS 2021](https://doi.org/10.1109/ICDCS51616.2021.00067).<br>
+See the related [blog post](https://cryptobern.github.io/synchronization/) and [presentation](https://www.youtube.com/watch?v=Fzz-vCzXR1M).
 
-- [How to Trust Strangers: Composition of Byzantine Quorum Systems](https://arxiv.org/abs/2107.11331) <br>
-*O. Alpos, C. Cachin, and L. Zanolini.*<br>
-In IEEE Symposium on Reliable Distributed Systems, [SRDS 2021](https://ieeexplore.ieee.org/document/9603623).<br>
-See related [blogpost](https://cryptobern.github.io/howtotruststrangers/).
+### 2020
 
-- [On the Synchronization Power of Token Smart Contracts](https://arxiv.org/abs/2101.05543) <br>
-*O. Alpos, C. Cachin, G. A. Marson, and L. Zanolini.*<br>
-In IEEE International Conference on Distributed Computing Systems, [ICDCS 2021](https://ieeexplore.ieee.org/document/9546529).<br>
-See related [blogpost](https://cryptobern.github.io/synchronization/) and [presentation](https://www.youtube.com/watch?v=Fzz-vCzXR1M).
-
-- [Consensus Beyond Thresholds: Generalized Byzantine Quorums Made Live](https://arxiv.org/abs/2006.04616) <br>
-*O. Alpos and C. Cachin.*<br>
-In IEEE Symposium on Reliable Distributed Systems, [SRDS 2020](https://ieeexplore.ieee.org/document/9252056).<br>
-See related [blogpost](https://cryptobern.github.io/beyondthreshold/) and [presentation](/files/presentations/generalized_consensus_srds.pdf).
+- [Consensus Beyond Thresholds: Generalized Byzantine Quorums Made Live](https://arxiv.org/abs/2006.04616)<br>
+*Orestis Alpos, Christian Cachin.*<br>
+In IEEE International Symposium on Reliable Distributed Systems, [SRDS 2020](https://doi.org/10.1109/SRDS51746.2020.00010).<br>
+See the related [blog post](https://cryptobern.github.io/beyondthreshold/) and [presentation](/files/presentations/generalized_consensus_srds.pdf).
 
 
 <!-- {% include base_path %} -->

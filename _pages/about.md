@@ -8,9 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-Hi, I am glad you are here!
+Welcome to my page!
 
-I am currently a blockchain consultant at [Common Prefix](https://www.commonprefix.com/), where I do research, consulting, and engineering
+I am currently a technical consultant at [Common Prefix](https://www.commonprefix.com/), where I do research, consulting, and engineering
 on blockchains and applied cryptography.
 Prior to that I briefly worked at [DFNS](https://www.dfns.co/), building on threshold ECDSA and threshold key management protocols,
 and at [IBM Research Zurich](https://www.zurich.ibm.com/), building scalable large-scale consensus protocols.
